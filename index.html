@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TP-INTEGRADOR</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="images/codoacodo.png" alt="" width="100" height="70">Conf Bs As
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse show" id="navbarSupportedContent" style="">
+				<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">La conferencia</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Los oradores</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">El lugar y la fecha</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Conviertete en orador</a>
+					</li>
+					<li>
+						<a href="pages/tickets.html" class="btn-ghost secondary">Comprar tickets</a>
+					</li>
+				</ul>
+			</div>
+	</div>
+</nav>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="contenedor_item">
+       <img src="images/ba3.jpg" class="d-block w-100" alt="#" class="contenedor_img">
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        <div class="caruaje">
+        <h1>Conf Bs As</h1>
+        <p>Bs As llega por primera vez Argentina. Un evento para compartir con<br>nuestra comunidad el conocimiento y experiencia de los expertos que<br> están creando el futuro de Internet. Ven a conocer a miembros del<br>evento, a otros estudiantes  de Codo a Codo y oradores de primer<br>nivel que tenemos para ti. Te esperamos!<br><br>
+        <a href="#" class="btn-ghost primary">Quiero ser orador</a>
+        <a href="#" class="btn-ghost secondary">Comprar tickets</a>
+        </p>
+        </div>
+      </div>
+    </div>
+</div>
+
+</header>
+<main>
+
+	<div class="container">
+		<div class="content">
+		  <p>CONOCE A LOS</p>
+		   <h1>ORADORES</h1>
+		</div>   
+	</div>
+
+<div class="row">
+  <div class="col-xl-3 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="images/bill.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      	<span class="date">JavaScript</span>
+      	<span class="date1">React</span>
+        <h5 class="card-title">Bill Gates</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="images/steve.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      	<span class="date">JavaScript</span>
+      	<span class="date1">React</span>
+        <h5 class="card-title">Steve Jobs</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-md-4 col-sm-12">
+    <div class="card h-100">
+      <img src="images/ada.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      	<span class="date2">Negocios</span>
+      	<span class="date3">Startups</span>
+        <h5 class="card-title">Ada Lovelace</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cont">
+   <div class="col-lg-6">
+    <img src="images/honolulu.jpg">
+   </div>
+   <div class="col-lg-6">
+     <p class="text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los   Estados Unidos. Honolulu es la urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-
+    condado consolidada que cubre toda la ciudad (aproximadamente 600km de superficie).<br><br>
+    <a href="#" class="btn-ghost round">Conocé más</a> 
+    </p>
+  </div>
+</div>
+<form class="form">
+  <h6>CONVIÉRTE EN UN</h6>
+  <h2>ORADOR</h2>
+  <h6>Anotate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h6>
+<div>
+  <div class="input">
+    <input class="input1" type="text" name="Nombre" placeholder="Nombre">
+    <input class="input2" type="text" name="Apellido" placeholder="Apellido">
+  </div>
+  <textarea name="mensaje" placeholder="Sobre qué quieres hablar?"></textarea>
+  <small>Recuerda incluir un título para tu charla<br></small>
+  <input type="button" value="Enviar" id="boton">
+</div>
+</form>
+		
+</main>
+<footer class="footer">
+  <div class="contenido">
+    <div class="row0">
+      <div class="footer-col">
+        <ul>
+          <li><a href="#">Preguntas <br>frecuentes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <ul>
+          <li><a href="#">Contáctanos</a></li>
+        </ul>
+      </div>
+            <div class="footer-col">
+        <ul>
+          <li><a href="#">Prensa</a></li>
+        </ul>
+      </div>
+            <div class="footer-col">
+        <ul>
+          <li><a href="#">Conferencias</a></li>
+        </ul>
+      </div>
+            <div class="footer-col">
+        <ul>
+          <li><a href="#">Términos y <br>condiciones</a></li>
+        </ul>
+      </div>
+            <div class="footer-col">
+        <ul>
+          <li><a href="#">Privacidad</a></li>
+        </ul>
+      </div>
+            <div class="footer-col">
+        <ul>
+          <li><a href="#">Estudiantes</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
